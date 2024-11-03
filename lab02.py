@@ -26,3 +26,8 @@
 # print (50 * 4)
 # print (50 / 4)
 
+# feet = 5
+# inches = 2
+# total_inches = feet * 12 + inches
+# height_cm = total_inches * 2.54
+# print("Height in centimeters:", height_cm)
