@@ -11,9 +11,7 @@
 # a = 2 % 2 + 2 * 2 - 2 / 2 
 # print (a)
 
-# b = 3 / 2 + 5 * 4 / 3
-
-# print (b)
+b = 3 / 2 + 5 * 4 / nt (b)
 
 # Area of circle
 # r = 50
