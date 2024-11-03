@@ -31,3 +31,11 @@
 # total_inches = feet * 12 + inches
 # height_cm = total_inches * 2.54
 # print("Height in centimeters:", height_cm)
+
+
+x1, y1 = 2, 4
+x2, y2 = 6, 8
+distance = ((x2 - x1) ** 2 + (y2 - y1) ** 2) ** 0.5
+print("Distance between the two points:", distance)
+
+
