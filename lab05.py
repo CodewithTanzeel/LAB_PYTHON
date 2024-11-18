@@ -5,14 +5,14 @@
 #       The first 10 natural number are :
 #       1 2 3 4 5 6 7 8 9 10 
 #       The Sum is : 55
-# sum = 0
-# num = 1
-# for num in range (1,11):
-#      print ( num , end ="")
-#      sum += num
+sum = 0
+num = 1
+for num in range (1,11):
+     print ( num , end ="")
+     sum += num
 
 
-# print("\nThe Sum is:", sum)
+print("\nThe Sum is:", sum)
  
 
      
@@ -22,9 +22,9 @@
 # …
 # 29 x 10 = 290
 
-# num = int(input("Enter a input for a table u want to print : "))
-# for i in range(1,11):
-#     print (num, "X", i , "=" , num * i)
+num = int(input("Enter a input for a table u want to print : "))
+for i in range(1,11):
+    print (num, "X", i , "=" , num * i)
 
 # 3.  Write a  program that take vowels character in a variable named “vowels” then
 #       print each vowels characters in newline using ‘for loop’.
