@@ -22,8 +22,23 @@
 # …
 # 29 x 10 = 290
 
-num = int(input("Enter a input for a table u want to print : "))
-for i in range(1,11):
-    print (num, "X", i , "=" , num * i)
+# num = int(input("Enter a input for a table u want to print : "))
+# for i in range(1,11):
+#     print (num, "X", i , "=" , num * i)
+
+# 3.  Write a  program that take vowels character in a variable named “vowels” then
+#       print each vowels characters in newline using ‘for loop’.
+vowel = input("Enter your vowel: ").lower()
+
+vowels = ('a' , 'e' ,'i','o','u')
+
+for var in vowel:
+    if var in vowels:
+        print (var)
+
+
+
+
+
 
  
