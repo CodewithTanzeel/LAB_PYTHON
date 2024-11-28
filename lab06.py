@@ -28,3 +28,38 @@ for i in range(1, 6):
     for j in range(1, 11):
         print(f"{i} x {j} = {i * j}")
     print()
+
+
+#Exercise A
+
+prompt = "\nPlease enter the name of a city you have visited:" "\n(Enter 'quit' when you are finished.)"
+while True:
+city = str(input(prompt))if city == quit:
+break; else:
+print("I'd love to go to " , city.title() , "!")
+
+
+
+
+if x>2:
+if y>2:
+z=x+y
+print(“z is”, y)else:
+print(“x is”, x)
+
+
+
+
+
+balance = int(input("enter yourbalance1:"))while true: if balance <=9000:
+continue;
+balance = balance+999.99 print("Balance is", balance)
+
+
+
+i = 10
+if (i==10):
+   print ("i is smaller than 15")# Nested - if statement
+   print ("i is smaller than 12 too")
+else:
+   print ("i is greater than 15")
