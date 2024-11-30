@@ -1,13 +1,21 @@
-prompt = "\nPlease enter the name of a city you have visited:" prompt+="\n(Enter 'quit' when you are finished.)"
-while True:
-city = str(input(prompt))if city == quit:
-break; else:
-print("I'd love to go to " , city.title() , "!")
+# INPUT ##1
+# prompt = "\nPlease enter the name of a city you have visited:" prompt+="\n(Enter 'quit' when you are finished.)"
+# while True:
+# city = str(input(prompt))if city == quit:
+# break; else:
+# print("I'd love to go to " , city.title() , "!")
 
 
 
 
+# if x>2:
+#   if y>2:
+#       z=x+y
+#       print(“z is”, y)else:
 
+balance = int(input("enter yourbalance1:"))while true: if balance <=9000:
+continue;
+balance = balance+999.99 print("Balance is", balance)
 
 
 # # 1.Write a program to add first seven terms twice of the following series:
