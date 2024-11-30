@@ -13,9 +13,19 @@
 #       z=x+y
 #       print(“z is”, y)else:
 
-balance = int(input("enter yourbalance1:"))while true: if balance <=9000:
-continue;
-balance = balance+999.99 print("Balance is", balance)
+# balance = int(input("enter yourbalance1:"))while true: if balance <=9000:
+# continue;
+# balance = balance+999.99 print("Balance is", balance)
+
+i = 10
+if (i==10):
+#First if statementif (i < 15):
+    print ("i is smaller than 15")# Nested - if statement
+# Will only be executed if statement above# it is true 
+    if (i < 12):
+       print ("i is smaller than 12 too")
+else:
+    print ("i is greater than 15")
 
 
 # # 1.Write a program to add first seven terms twice of the following series:
