@@ -19,4 +19,17 @@
 #    return add
 # func = test(4)
 # print(func(4))
- 
+
+
+# def return_none(): 
+#   return
+# print(return_none())
+
+# def test_range(n):
+#    if n in range(3,9):
+#     print( n,"is in the range") 
+#    else :
+#     print("The number is outside the given range.") 
+# test_range(7)
+# test_range(10)
+# test_range(4)
