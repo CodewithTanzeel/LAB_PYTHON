@@ -17,15 +17,34 @@
 # continue;
 # balance = balance+999.99 print("Balance is", balance)
 
-i = 10
-if (i==10):
-#First if statementif (i < 15):
-    print ("i is smaller than 15")# Nested - if statement
-# Will only be executed if statement above# it is true 
-    if (i < 12):
-       print ("i is smaller than 12 too")
-else:
-    print ("i is greater than 15")
+# i = 10
+# if (i==10):
+# #First if statementif (i < 15):
+#     print ("i is smaller than 15")# Nested - if statement
+# # Will only be executed if statement above# it is true 
+#     if (i < 12):
+#        print ("i is smaller than 12 too")
+# else:
+#     print ("i is greater than 15")
+# i = 1
+# j = 2
+# k = 3
+# if i > j: if i > k:
+# print('A')else:
+# print('B')
+
+
+# i = 1
+# j = 2
+# k = 3
+# if i > j: if i> k: print('A')else:
+# print('B')
+
+# nested for loops for i in range(0, 5):
+for i in range(0, 5):
+   for j in range(i): print(i, end=' ') 
+   print()
+
 
 
 # # 1.Write a program to add first seven terms twice of the following series:
