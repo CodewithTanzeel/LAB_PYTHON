@@ -33,3 +33,39 @@
 # test_range(7)
 # test_range(10)
 # test_range(4)
+
+
+# 1.	Write a user-defined function called favorite_book() that accepts one parameter, title. The function should print a message, such as One of my favorite books is Alice in Wonderland. Call the function, making sure to include a book title as an argument in the function call.
+# part c
+# def favourite_book(title):
+#     print(f"One of my Favourite book is {title}")
+
+# booktitle = "silenthill"
+# favourite_book(booktitle)
+
+# 2.	Write a user-defined function called max( ), that returns the maxium of three integer numbers.
+
+# def max(x,y,z):
+#     if x >= y and x >= z:
+#         return x
+    
+#     elif y >= x and y >= z:
+#         return y
+#     else:
+#         return z
+
+# print(f"The maximum value is : ",max(4,6,9))
+
+#Euclids theorm
+# a = b * x + a % b
+
+def gcd_program(a,b):
+    if b==0:
+        return a 
+    else:
+        return gcd_program(b,a%b)
+
+num1 = int(input("enter the first number: "))
+num2 = int(input("enter the second number: "))
+  
+print(gcd_program(num1,num2))
