@@ -6,11 +6,12 @@
 # print("My " , animal_type + "'s name is " , pet_name +
 # ".")
 
-# def type_of_int(i):
-#      if i // 2 == 0:
-#        return 'even'
-#      else:
-#        return 'odd'
+def type_of_int(i):
+     if i // 2 == 0:
+       return 'even'
+     else:
+       return 'odd'
+type_of_int(9)
 
 # def test(a):
 #    def add(b):
