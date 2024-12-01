@@ -76,10 +76,10 @@ type_of_int(9)
 
 # 4.	Write a user-defined function called describe_city() that accepts the name of a city and its country. The function should print a simple sentence, such as Reykjavik is in Iceland. Give the parameter for the country a default value. Call your function for three different cities, at least one of which is not in the default country.
 
-def describe_city(city,country="pakistan"):
-    print(f"{city} is a part of {country}")
+# def describe_city(city,country="pakistan"):
+#     print(f"{city} is a part of {country}")
 
-describe_city("karachi")
-describe_city("lahore")
-describe_city("Los angleous","USA")
+# describe_city("karachi")
+# describe_city("lahore")
+# describe_city("Los angleous","USA")
 
