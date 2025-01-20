@@ -58,15 +58,15 @@
 
 # 3. Write a program that create function that merges two sorted lists and call two list with random numbers.
 
-list2 = [1,2,5,6,11,3,4]
-list1 = [90,45,23,67,34]
-x1=sorted(list2)
-x2=sorted(list1)
-print(f"Sorted list: {x1} ")
-print(f"Sorted list: {x2} ")
+# list2 = [1,2,5,6,11,3,4]
+# list1 = [90,45,23,67,34]
+# x1=sorted(list2)
+# x2=sorted(list1)
+# print(f"Sorted list: {x1} ")
+# print(f"Sorted list: {x2} ")
 
-def extender(x1,x2):
-     x1.extend(x2)
-     return print(f"Combined extendedsorted list :{x1}")
+# def extender(x1,x2):
+#      x1.extend(x2)
+#      return print(f"Combined extendedsorted list :{x1}")
     
-extender(x1,x2)
+# extender(x1,x2)
