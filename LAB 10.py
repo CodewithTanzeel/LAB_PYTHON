@@ -57,7 +57,26 @@
 
    
 
-                    
+                
+import random
+
+def guess_the_capitals():
+    capitals = {
+        "California": "Sacramento",
+        "Texas": "Austin",
+        "Florida": "Tallahassee",
+        "New York": "Albany",
+        "Illinois": "Springfield",
+    }
+
+    correctans = 0
+    incorrecyans = 0
+    userinput = input(f"   
+
+
+
+guess_the_capitals()
+
 
 
 # 3. Write a pogram that make a dictionary called favorite_places. Think of three names to use as keys in the dictionary, and store three favorite places for each person through list. Loop through the dictionary, and print each person’s name and their favorite places.
