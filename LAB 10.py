@@ -90,6 +90,6 @@ guess_the_capitals()
 
 # for key,value in favourite_places.items():
 #     print(f"{key} favourite place is {value}")
-
+#
 
 
