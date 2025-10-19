@@ -43,4 +43,24 @@
 #         print("I'm a", self.attr1)
 
 
-print("Hello \b  World!")
+# print("Hello \b  World!")
+
+# 1. Write a program that create  a class called Restaurant. The __init__() method for Restaurant should store two attributes: a restaurant_name and a cuisine_type. Make a method called infor_restaurant() that prints these two pieces of information, and a method called open_restaurant() that prints a message indicating that the “restaurant is open”.
+
+
+class Restaurant:
+    def __init__(self, restaurant_name, cuisine_type):
+        self.restaurant_name = restaurant_name 
+        self.cuisine_type = cuisine_type      
+    
+    def info_restaurant(self):
+        print(f"{self.restaurant_name} offers a variety of {self.cuisine_type} cuisine.")
+    
+    def open_restaurant(self):
+        print(f"{self.restaurant_name} is open for service.")
+
+res1 = Restaurant("Shinwairi", "Desi")
+res1.info_restaurant() 
+res2 = Restaurant("chinese", "lichen")
+res2.info_restaurant() 
+res2.open_restaurant()  

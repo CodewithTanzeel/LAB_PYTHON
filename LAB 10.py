@@ -58,24 +58,8 @@
    
 
                 
-import random
+# 
 
-def guess_the_capitals():
-    capitals = {
-        "California": "Sacramento",
-        "Texas": "Austin",
-        "Florida": "Tallahassee",
-        "New York": "Albany",
-        "Illinois": "Springfield",
-    }
-
-    correctans = 0
-    incorrecyans = 0
-    userinput = input(f"   
-
-
-
-guess_the_capitals()
 
 
 
@@ -86,10 +70,17 @@ guess_the_capitals()
 # - Death Valley
 # - Tierra Del Fuego 
 
-# favourite_places={"Arfin":"sicili","hasnain":"Japan","FahadButt":"America"}
+favorite_places = {
+    "Arfin": ["Sicily", "Bear Mountain", "Venice"],
+    "Hasnain": ["Japan", "Kyoto", "Hokkaido"],
+    "Fahad Butt": ["America", "New York", "Grand Canyon"]
+}
 
-# for key,value in favourite_places.items():
-#     print(f"{key} favourite place is {value}")
+for name, places in favorite_places.items():
+    print(f"{name} likes the following places:")
+    for place in places:
+        print(f"- {place}")
+    print()
 
 
 

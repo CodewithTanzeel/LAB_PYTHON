@@ -69,7 +69,7 @@
 
 # 1.	Write a NumPy program to create an 1D array of 10 zeros, 10 ones, 10 fives 
 
-import numpy as numpy
+# import numpy as numpy
 # a = numpy.array([])
 # b=[]
 # n=[]
@@ -80,6 +80,17 @@ import numpy as numpy
 #         n.append(i)
 # a=numpy.append(n,b)  
 # print(a)
+
+
+import numpy as numpy
+n = []
+for i in [0, 1, 5]:
+
+    for j in range(10):
+        n.append(i)
+
+a = numpy.array(n)
+print(a)
 
 
 # print(numpy.arange(2,11).reshape(3,3))

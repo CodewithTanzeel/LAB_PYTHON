@@ -49,14 +49,14 @@ for i in range(0, 5):
 
 # # 1.Write a program to add first seven terms twice of the following series:
 # # Program to add first seven terms twice of a series
-# result = 0
-# for i in range(1, 8):
-#     factorial = 1
-#     for j in range(1, i + 1):
-#         factorial *= j
-#     result += i / factorial
-# result *= 2
-# print("Result:", result)
+result = 0
+for i in range(1, 8):
+    factorial = 1
+    for j in range(1, i + 1):
+        factorial *= j
+    result += i / factorial
+result *= 2
+print("Result:", result)
 
 
 

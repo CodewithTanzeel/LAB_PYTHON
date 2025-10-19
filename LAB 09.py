@@ -32,15 +32,15 @@
 
 # 1. Write a program that take function which implements linear search. It should take a list and an element as a parameter, and return the position of the element in the list. The algorithm consists of iterating over a list and returning the index of the first occurrence of an item once it is found. If the element is not in the list, the function should return ‘not found’ message.
 
-# list=["a","b","c","d","e","f"]
-# e =input("Enter the element u want to search in the list :").lower()
-# def linear(list,e):
-#       for i in range(len(list)):
-#             if list[i]==e:
-#                   return print(f"Your element {e} is found on ", list.index(e))
+list=["a","b","c","d","e","f"]
+e =input("Enter the element u want to search in the list :").lower()
+def linear(list,e):
+      for i in range(len(list)):
+            if list[i]==e:
+                  return print(f"Your element {e} is found on ", list.index(e))
             
-#       return print("not found")
-# linear(list,e)
+      return print("not found")
+linear(list,e)
 
 # 2. Write a program that create function that takes two lists and returns True if they have at least one common member. Call the function with atleast two data set for searching.
 
