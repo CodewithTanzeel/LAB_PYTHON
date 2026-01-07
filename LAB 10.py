@@ -82,5 +82,8 @@ for name, places in favorite_places.items():
         print(f"- {place}")
     print()
 
+# for key,value in favourite_places.items():
+#     print(f"{key} favourite place is {value}")
+#
 
 
